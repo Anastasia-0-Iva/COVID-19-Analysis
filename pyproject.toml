@@ -1,0 +1,18 @@
+[project]
+name = "covid-19-analysis"
+version = "0.1.0"
+description = "\"Analysis of COVID-19 incidence from 2019 to 2024.\""
+authors = [
+    {name = "\"Anastasia\""}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
