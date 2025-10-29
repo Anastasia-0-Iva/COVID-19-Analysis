@@ -34,10 +34,7 @@ git clone <URL_твоего_репозитория>
 cd COVID-19_Analysis
 python -m venv venv
 .\venv\Scripts\activate
-# Если используешь Poetry:
-# poetry install
-# Если используешь pip:
-pip install pandas 
+poetry install
 ```
 
 **Для Linux/macOS:**
@@ -46,10 +43,8 @@ git clone <URL_твоего_репозитория>
 cd COVID-19_Analysis
 python3 -m venv venv
 source venv/bin/activate
-# Если используешь Poetry:
-# poetry install
-# Если используешь pip:
-pip install pandas 
+poetry install
+
 ```
 
 3.  **Подготовка данных:**
