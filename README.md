@@ -30,7 +30,7 @@ COVID-19 Analysis — это проект, предназначенный для
 
 **Для Windows:**
 ```
-git clone <https://github.com/Anastasia-0-Iva/COVID-19-Analysis.git>
+git clone git@github.com:Anastasia-0-Iva/COVID-19-Analysis.git
 cd COVID-19_Analysis
 python -m venv venv
 .\venv\Scripts\activate
@@ -39,7 +39,7 @@ poetry install
 
 **Для Linux/macOS:**
 ```
-git clone <https://github.com/Anastasia-0-Iva/COVID-19-Analysis.git>
+git clone git@github.com:Anastasia-0-Iva/COVID-19-Analysis.git
 cd COVID-19_Analysis
 python3 -m venv venv
 source venv/bin/activate
